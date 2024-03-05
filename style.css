@@ -1,0 +1,114 @@
+
+
+header{
+    margin: 50px auto;
+    display: flex;
+}
+h1{
+    margin: 50px auto;
+    
+
+}
+
+
+.contenier{
+    display: flex;
+    gap: 2%;
+
+}
+h2{
+    display: flex;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 45%;
+    border: 2px solid black ;
+    border-right: none;
+    /* position: relative;
+    float: right;
+    */
+}
+
+.beaf{
+   
+    border: 2px solid black;
+    text-align: center;
+    width: 30%;
+    height: auto;
+    background-color: rgb(194, 184, 184);
+    margin: 30px;
+
+
+}
+.beaf h2{
+    background-color: rgb(231, 15, 15);
+    padding-left: 20%;
+}
+
+.chicken{
+    border: 2px solid black;
+    width: 30%;
+    height: auto;
+    background-color:  rgb(194, 184, 184);
+margin: 30px;
+}
+.chicken h2{
+    background-color: rgb(134, 42, 209);
+    color: aliceblue;
+    padding-left: 10%;
+
+}
+
+.fish{
+    border: 2px solid black;
+    width: 30%;
+    height: auto;
+    background-color:  rgb(194, 184, 184);
+    margin: 30px;
+
+}
+.fish h2{
+    background-color: rgb(19, 221, 144);
+    padding-left: 20%;
+
+}
+
+
+
+
+@media (min-width: 767px) and (max-width: 991px){
+   .contenier{
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+    margin: 20px auto;
+    flex-wrap: wrap;
+   
+   }
+   .fish{
+    position: relative;
+    flex-grow: 1;
+   }
+}
+
+@media(max-width: 767px){
+    .body{
+        margin: auto ;
+
+    }
+    .contenier{
+        
+        display: block;
+        
+       
+    }
+    .contenier div{
+        width: 80%;
+        margin: 10px auto;
+    }
+
+
+}
